@@ -49,7 +49,7 @@ body {
 .button {
   border: 1px solid black;
   text-align: center;
-  padding: 20%, 10%;
+  padding: 20% 10%;
   grid-column: 2 / 3;
   cursor: pointer;
 }
