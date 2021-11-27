@@ -33,6 +33,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by Group Gender/Soloist",
     key: "type",
     tooltip: "Check this to restrict to certain gender or soloist.",
+    checked: false,
     sub: [
       { name: "female group", key: "fg" },
       { name: "male group", key: "mg" },
