@@ -184,6 +184,7 @@ label:hover {
   display: none;
   text-align: center;
   font-size: 0.75em;
+  line-height: 0.75em;
 }
 
 .results {
@@ -212,18 +213,18 @@ label:hover {
   height: 24px;
   margin-bottom: -1px;
   display: grid;
-  width: 219px;
+  width: 239px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
   margin-right: 5px;
 }
 
 .result.image {
-  height: 200px;
+  height: 222px;
 }
 
 .result.image img {
-  height: 160px;
+  height: 200px;
 }
 
 .result.spacer {
@@ -255,7 +256,7 @@ label:hover {
 }
 
 .result > .right {
-  width: 160px;
+  width: 180px;
   padding: 1px 0em 1px 0em;
   grid-column: 2 / 3;
   border-left: 1px solid #000;
