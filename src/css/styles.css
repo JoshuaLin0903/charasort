@@ -65,7 +65,6 @@ body {
 
 .sorting.button, .finished.button {
   grid-row: span 2;
-  margin: auto;
   display: none;
 }
 
@@ -210,17 +209,17 @@ label:hover {
 }
 
 .result {
-  height: 15px;
+  height: 24px;
   margin-bottom: -1px;
   display: grid;
-  width: 211px;
+  width: 219px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
   margin-right: 5px;
 }
 
 .result.image {
-  height: 175px;
+  height: 200px;
 }
 
 .result.image img {
@@ -238,7 +237,7 @@ label:hover {
 }
 
 .result > .left {
-  width: 35px;
+  width: 43px;
   padding: 1px 3px 1px 0.5em;
   grid-column: 1 / 2;
   text-align: right;
